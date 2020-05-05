@@ -11,12 +11,12 @@ class Dog
         @@all 
     end
 
-    # def self.print_all
-    #     @@all.each do |puppy|
-    #     puts 
+    # def self.clear_all
     # end
 
-    # def clear_all
+     # def self.print_all
+    #     @@all.each do |puppy|
+    #     puts 
     # end
     
     # def save
