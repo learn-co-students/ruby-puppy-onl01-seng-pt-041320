@@ -8,7 +8,6 @@ class Dog
     @name = name
     #@@all << self
     self.save
-
   end
 
   def self.all
@@ -25,8 +24,12 @@ class Dog
   end
 end
 
+
   def save
-    @@all << self
+    self.class.all << self
   end
+  # def save
+  #   @@all << self
+  # end
 
 end
